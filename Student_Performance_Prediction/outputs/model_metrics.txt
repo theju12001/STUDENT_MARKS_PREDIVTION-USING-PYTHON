@@ -1,0 +1,30 @@
+Student Performance Prediction - Model Metrics
+==================================================
+
+Primary Required Model: Linear Regression
+Final Model Selected For Prediction: Linear Regression
+
+Training samples: 960
+Testing samples: 240
+
+--- Linear Regression ---
+Student Performance Prediction - Model Metrics
+==================================================
+Model Used: Linear Regression
+
+MAE: 4.1287
+MSE: 26.9795
+RMSE: 5.1942
+R2_Score: 0.7417
+
+--- Random Forest Regression (optional comparison) ---
+Student Performance Prediction - Model Metrics
+==================================================
+Model Used: Random Forest Regression
+
+MAE: 4.4664
+MSE: 32.2921
+RMSE: 5.6826
+R2_Score: 0.6908
+
+Note: R2 Score measures how well the model explains variance in Final_Score. It is NOT the same as classification 'accuracy'. The model with the higher R2 Score (Linear Regression) was selected for the live prediction feature.
